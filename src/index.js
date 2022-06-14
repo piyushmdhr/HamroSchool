@@ -1,18 +1,7 @@
-import React from 'react'
-import ReactDOM from "react-dom"
-import './index.css'
-import Header from './Header'
-import Body from './Body'
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./styles/index.css";
+import "./styles/Header.css";
 
-
-function Landing(){
-  return(
-    <div>
-      
-      <Header />
-      <Body />
-    </div>
-    )
-  }
-
-ReactDOM.render(<Landing /> , document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById("root"));
