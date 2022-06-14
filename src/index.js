@@ -15,4 +15,5 @@ function Landing(){
     )
   }
 
+ReactDOM.render("Hello", document.getElementById("root"))
 ReactDOM.render(<Landing /> , document.getElementById('root'))
